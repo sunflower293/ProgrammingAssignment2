@@ -7,7 +7,7 @@ makecacheMatrix = function(x = Matrix()){
     get = function() x
     setinverse = function(solve) inverse <<- solve
     getinverse = function() inverse
-    list(set = set, get = get, setinvere = setinverse, getinverse = getinverse)
+    list(set = set, get = get, setinverse = setinverse, getinverse = getinverse)
 }
 
 cacheSolve = function(x, ...){
